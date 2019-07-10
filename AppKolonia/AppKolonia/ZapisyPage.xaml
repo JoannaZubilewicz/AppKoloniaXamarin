@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="AppKolonia.ZapisyPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <ContentPage.Content>
+        <StackLayout Spacing="15">
+
+            <Label
+                HorizontalOptions="CenterAndExpand"
+                Text="Zapisz swoje dziecko już teraz! "
+                VerticalOptions="Center" />
+
+            <Label
+                HorizontalOptions="CenterAndExpand"
+                Text="Wypełnij formularz zgłoszeniowy"
+                VerticalOptions="Center" />
+
+            <Entry
+                x:Name="ImieEntry"
+                TextChanged="Entry_TextChanged"
+                HorizontalOptions="CenterAndExpand"
+                Placeholder="Imię"
+                VerticalOptions="Center"
+                WidthRequest="300" />
+
+            <Entry
+                x:Name="NazwiskoEntry"
+                TextChanged="Entry_TextChanged"
+                HorizontalOptions="CenterAndExpand"
+                Placeholder="Nazwisko"
+                VerticalOptions="Center"
+                WidthRequest="300" />
+
+            <Entry
+                x:Name="AdresEntry"
+                TextChanged="Entry_TextChanged"
+                HorizontalOptions="CenterAndExpand"
+                Placeholder="Adres zamieszkania"
+                VerticalOptions="Center"
+                WidthRequest="300" />
+
+            <Entry
+                x:Name="UroEntry"
+                TextChanged="Entry_TextChanged"
+                HorizontalOptions="CenterAndExpand"
+                Placeholder="Data urodzenia"
+                VerticalOptions="Center"
+                WidthRequest="300" />
+
+            <Entry
+                x:Name="KontaktEntry"
+                TextChanged="Entry_TextChanged"
+                HorizontalOptions="CenterAndExpand"
+                Placeholder="Kontakt (tel)"
+                VerticalOptions="Center"
+                WidthRequest="300" />
+
+            <Entry
+                x:Name="EmailEntry"
+                TextChanged="Entry_TextChanged"
+                HorizontalOptions="CenterAndExpand"
+                Placeholder="Adres e-mail"
+                VerticalOptions="Center"
+                WidthRequest="300" />
+
+            <Button
+                Clicked="Button_Clicked"
+                HorizontalOptions="CenterAndExpand"
+                Text="Zapisz"
+                VerticalOptions="Center"
+                WidthRequest="100" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

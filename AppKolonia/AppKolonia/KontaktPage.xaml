@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="AppKolonia.KontaktPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    BackgroundImage="Assets/gory.png">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout
+                Margin="10,70,10,40"
+                BackgroundColor="Beige"
+                Opacity="0.5">
+
+                <Label
+                    Margin="30,100,30,100"
+                    Font="Bold,20"
+                    HorizontalOptions="Center"
+                    LineBreakMode="WordWrap"
+                    Text="Adres &#x0a;                 Stowarzyszenie na Rzecz Dzieci i Młodzieży  &#x0a;                 AZYMUT &#x0a;                 ul. Hutnicza 8, 37-450 Stalowa Wola &#x0a; &#x0a;                  NIP 865-23-33-200 &#x0a;                 KRS 0000155145 &#x0a;                 Regon 831350550 &#x0a; &#x0a;                  Konto bankowe &#x0a;                 PEKAO S.A I /o Stalowa Wola &#x0a;                 98 1240 2799 1111 0000 3844 8436  &#x0a;"
+                    TextColor="Black"
+                    VerticalOptions="Start" />
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

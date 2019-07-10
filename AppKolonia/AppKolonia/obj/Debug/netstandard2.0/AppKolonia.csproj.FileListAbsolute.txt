@@ -1,0 +1,16 @@
+C:\Users\user\source\repos\AppKolonia\AppKolonia\AppKolonia\bin\Debug\netstandard2.0\AppKolonia.deps.json
+C:\Users\user\source\repos\AppKolonia\AppKolonia\AppKolonia\bin\Debug\netstandard2.0\AppKolonia.dll
+C:\Users\user\source\repos\AppKolonia\AppKolonia\AppKolonia\bin\Debug\netstandard2.0\AppKolonia.pdb
+C:\Users\user\source\repos\AppKolonia\AppKolonia\AppKolonia\obj\Debug\netstandard2.0\AppKolonia.csprojAssemblyReference.cache
+C:\Users\user\source\repos\AppKolonia\AppKolonia\AppKolonia\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\user\source\repos\AppKolonia\AppKolonia\AppKolonia\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\user\source\repos\AppKolonia\AppKolonia\AppKolonia\obj\Debug\netstandard2.0\AppKolonia.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\AppKolonia\AppKolonia\AppKolonia\obj\Debug\netstandard2.0\AppKolonia.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\AppKolonia\AppKolonia\AppKolonia\obj\Debug\netstandard2.0\AppKolonia.AssemblyInfo.cs
+C:\Users\user\source\repos\AppKolonia\AppKolonia\AppKolonia\obj\Debug\netstandard2.0\AppKolonia.dll
+C:\Users\user\source\repos\AppKolonia\AppKolonia\AppKolonia\obj\Debug\netstandard2.0\AppKolonia.pdb
+C:\Users\user\source\repos\AppKolonia\AppKolonia\AppKolonia\obj\Debug\netstandard2.0\ZapisyPage.xaml.g.cs
+C:\Users\user\source\repos\AppKolonia\AppKolonia\AppKolonia\obj\Debug\netstandard2.0\KontaktPage.xaml.g.cs
+C:\Users\user\source\repos\AppKolonia\AppKolonia\AppKolonia\obj\Debug\netstandard2.0\ONasPage.xaml.g.cs
+C:\Users\user\source\repos\AppKolonia\AppKolonia\AppKolonia\obj\Debug\netstandard2.0\WyswietlFormularzPage.xaml.g.cs
+C:\Users\user\source\repos\AppKolonia\AppKolonia\AppKolonia\obj\Debug\netstandard2.0\XamlC.stamp

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="AppKolonia.WyswietlFormularzPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <ScrollView>
+                <StackLayout>
+                    <Label
+                HorizontalOptions="CenterAndExpand"
+                Text="wyswietla formularz"
+                VerticalOptions="CenterAndExpand" />
+                    <ListView ItemsSource="{Binding Uczestnicy}">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <StackLayout Orientation="Vertical">
+                                        <StackLayout Orientation="Horizontal">
+                                            <Label Text="Imie: " />
+                                            <Label Text="{Binding Imie}" />
+                                        </StackLayout>
+                                        <StackLayout Orientation="Horizontal">
+                                            <Label Text="Nazwisko: " />
+                                            <Label Text="{Binding Nazwisko}" />
+                                        </StackLayout>
+                                        <StackLayout Orientation="Horizontal">
+                                            <Label Text="Adres zamieszkania: " />
+                                            <Label Text="{Binding Adres}" />
+                                        </StackLayout>
+                                        <StackLayout Orientation="Horizontal">
+                                            <Label Text="Urodziny: " />
+                                            <Label Text="{Binding Urodziny}" />
+                                        </StackLayout>
+                                        <StackLayout Orientation="Horizontal">
+                                            <Label Text="Nr telefonu: " />
+                                            <Label Text="{Binding Tel}" />
+                                        </StackLayout>
+                                        <StackLayout Orientation="Horizontal">
+                                            <Label Text="Adres e-mail: " />
+                                            <Label Text="{Binding Email}" />
+                                        </StackLayout>
+                                    </StackLayout>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+
+                </StackLayout>
+            </ScrollView>
+            <Button
+                BackgroundColor="LimeGreen"
+                Clicked="Button_Clicked_1"
+                Text="Resetuj listę" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

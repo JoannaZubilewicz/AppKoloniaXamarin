@@ -1,0 +1,1 @@
+C:\Users\user\source\repos\AppKolonia\AppKolonia\AppKolonia.UWP\AppKolonia.UWP.csproj;x86

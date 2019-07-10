@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="AppKolonia.ONasPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    BackgroundColor="DarkGray">
+    <ContentPage.Content>
+        
+        <ScrollView>
+            
+            <StackLayout Margin="30">
+                
+                <Label
+                    Margin="0,30"
+                    FontSize="Large"
+                    HorizontalOptions="CenterAndExpand"
+                    Text="O nas" 
+                    />
+                <!--Style="{DynamicResource TitleStyle}"-->
+                <Label
+                    FontFamily="Comic Sans MS"
+                    HorizontalOptions="CenterAndExpand"
+                    Text="Witamy na stronie Stowarzyszenia na Rzecz Dzieci i Młodzieży AZYMUT. Jesteśmy organizacja pozarządową,która powstała w 2003 roku. &#x0a; Głównym celem stowarzyszenia jest prowadzenie działalności edukacyjnej, wychowawczej oraz organizacja wypoczynku dla  dzieci  i młodzieży. Członkowie naszego stowarzyszenia to w większości nauczyciele, pedagodzy, instruktorzy harcerscy oraz studenci.   &#x0a; &#x0a; Nasze kolonie, obozy  i zimowiska są tak organizowane, by dzieci i młodzież czuła się bezpiecznie,  a program jaki proponujemy był atrakcyjny, pod każdym względem. Realizujemy  programy  m.in. profilaktyczne,  ekologiczne, turystyczne, artystyczne. &#x0a; Organizowane przez nas kolonie, obozy i  zimowiska przygotowujemy w taki sposób, by rozwijały twórcze zainteresowania i wyobraźnię, a także umożliwiały zdobywanie nowych umiejętności i rozbudzały wiarę we własne siły i możliwości, uczyły pewności siebie. Nasze kolonie są aktywne z ciekawym programem, doświadczoną kadrą i w atrakcyjnych lokalizacjach. Wszystkie wyjazdy są zgłaszane i rejestrowane we właściwym Kuratorium Oświaty i wizytowane przez odpowiednie służby i instytucje. Jesteśmy także organizatorami licznych imprez plenerowych oraz koncertów. Organizujemy zajęcia,  warsztaty w terenie, jedno i kilkudniowe, z wybranej dziedziny. Zajmujemy się szkoleniem  z zakresu wypoczynku dzieci  i młodzieży.&quot;"
+                    VerticalOptions="CenterAndExpand" />
+                <!--  &#x0a;  -->
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+
+</ContentPage>
